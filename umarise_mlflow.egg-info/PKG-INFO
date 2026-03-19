@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: umarise-mlflow
+Version: 0.1.0
+Summary: Anchor MLflow artifacts to Bitcoin. One line to production.
+Author-email: Umarise <partners@umarise.com>
+License-Expression: Unlicense
+Project-URL: Homepage, https://umarise.com
+Project-URL: Documentation, https://umarise.com/api-reference
+Project-URL: Repository, https://github.com/AnchoringTrust/umarise-mlflow
+Project-URL: Case Study, https://umarise.com/case/ai-code-generation
+Keywords: umarise,mlflow,anchoring,bitcoin,proof-of-existence,opentimestamps,provenance,ai-audit
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Security :: Cryptography
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: umarise-core-sdk>=1.1.0
+Requires-Dist: mlflow>=2.0
+
+# umarise-mlflow

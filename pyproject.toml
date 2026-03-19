@@ -12,13 +12,12 @@ requires-python = ">=3.8"
 authors = [{ name = "Umarise", email = "partners@umarise.com" }]
 keywords = ["umarise", "mlflow", "anchoring", "bitcoin", "proof-of-existence", "opentimestamps", "provenance", "ai-audit"]
 classifiers = [
-    "Development Status :: 4 - Beta",
-    "Intended Audience :: Developers",
-    "Intended Audience :: Science/Research",
-    "Topic :: Scientific/Engineering :: Artificial Intelligence",
-    "Topic :: Security :: Cryptography",
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved",
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Security :: Cryptography",
+  "Programming Language :: Python :: 3"
 ]
 dependencies = ["umarise-core-sdk>=1.1.0", "mlflow>=2.0"]
 
