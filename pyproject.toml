@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "umarise-mlflow"
+version = "0.1.0"
+description = "Anchor MLflow artifacts to Bitcoin. One line to production."
+readme = "README.md"
+license = "Unlicense"
+requires-python = ">=3.8"
+authors = [{ name = "Umarise", email = "partners@umarise.com" }]
+keywords = ["umarise", "mlflow", "anchoring", "bitcoin", "proof-of-existence", "opentimestamps", "provenance", "ai-audit"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Security :: Cryptography",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved",
+]
+dependencies = ["umarise-core-sdk>=1.1.0", "mlflow>=2.0"]
+
+[project.urls]
+Homepage = "https://umarise.com"
+Documentation = "https://umarise.com/api-reference"
+Repository = "https://github.com/AnchoringTrust/umarise-mlflow"
+"Case Study" = "https://umarise.com/case/ai-code-generation"
